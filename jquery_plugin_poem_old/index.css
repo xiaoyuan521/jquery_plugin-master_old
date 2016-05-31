@@ -1,0 +1,30 @@
+.inlineBlock{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.border4 {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+
+.poemContainer {
+	width: 350px;
+}
+
+.poemContainer, .poemHeader, .poemBody {
+	padding: 5px;
+	text-align:center;
+}
+
+.poemBody {
+	margin-top: 5px;
+}
+
+.poemImage >img{
+
+	max-width: 50px;
+	max-height: 50px;
+
+}
