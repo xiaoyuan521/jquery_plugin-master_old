@@ -1,0 +1,13 @@
+	init
+
+①取得传进来的参数，并使用这种方式 template.format(imageName, title);转换成 数组类型。
+②取得 template 模板
+③取得整理的body document.body取得
+④把模板放入body里
+⑤ 把原来baseDom里面多余的东西清空，放入模板下的poemBody里面
+
+	destroy
+
+①取得body
+②取出之前poembody里面的内容，加入到body里
+③把container的内容移除。 
